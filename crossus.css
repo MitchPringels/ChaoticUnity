@@ -1,0 +1,358 @@
+body{
+background-image:url(http://www.konbini.com/fr/files/2013/02/Mosh-Pit-at-Endfest1.jpg);
+
+}
+
+#navigation-container{
+  margin-left: 145px;
+  margin-top: 3%;
+  padding-bottom: 3%;
+
+}
+
+
+.cu {
+float: left;
+
+
+}
+.ul{
+  float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.home{
+  list-style: none;
+}
+.Button1{
+
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+
+
+
+.Button1 .green{
+   display: none;
+      position: absolute;
+        top: 0;
+        left: 0;
+
+  }
+
+
+
+.Button1:hover .green{
+  display: inline;
+
+
+  }
+
+
+
+  .artists{
+    list-style: none;
+  }
+  .Button2{
+
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin: 30px;
+
+  }
+
+
+
+  .Button2 .green{
+     display: none;
+        position: absolute;
+          top: 0;
+          left: 0;
+
+    }
+
+
+
+  .Button2:hover .green{
+    display: inline;
+
+
+    }
+
+
+
+
+
+    .events{
+      list-style: none;
+
+    }
+    .Button3{
+
+      position: relative;
+      display: inline-block;
+      float: left;
+      margin: 30px;
+    }
+
+
+
+    .Button3 .green{
+       display: none;
+          position: absolute;
+            top: 0;
+            left: 0;
+
+      }
+
+
+
+    .Button3:hover .green{
+      display: inline;
+
+      }
+
+
+
+          .about{
+            list-style: none;
+
+          }
+          .Button4{
+
+            position: relative;
+            display: inline-block;
+            float: left;
+            margin: 10px;
+          }
+
+
+
+          .Button4 .green{
+             display: none;
+                position: absolute;
+                  top: 0;
+                  left: 0;
+            }
+
+
+
+          .Button4:hover .green{
+            display: inline;
+
+            }
+
+            .your-class{
+            text-align: center;
+            width: 500px;
+            background-image: url(https://inspirationhut.net/wp-content/uploads/2012/11/Grungy-Paper-Texture-1.jpg);
+            border: solid 4px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto
+            }
+
+
+
+.content{
+
+  background-image: url(https://inspirationhut.net/wp-content/uploads/2012/11/Grungy-Paper-Texture-1.jpg);
+  margin: auto;
+  width: 53%;
+margin-top: 225px;
+padding-top: 20px;
+padding-bottom: 20px;
+margin-bottom: 30px;
+-webkit-box-shadow: -1px 0px 36px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 0px 36px 2px rgba(0,0,0,0.75);
+box-shadow: -1px 0px 36px 2px rgba(0,0,0,0.75);
+border: 2px solid;
+    border-radius: 15px 50px;
+
+}
+
+h1{
+  margin-left: 50px;
+  font-family: 'Metal Mania', cursive;
+  font-size: 40px;
+
+
+}
+
+@font-face {
+  font-family:aflfont;
+  src:url("aflfont.TTF");
+}
+
+h2{
+  text-align: center;
+  font-family: 'Metal Mania', cursive;
+  font-size: 30px;
+
+}
+
+
+.intro{
+font-family: aflfont;
+color: black;
+width: 100%;
+font-size: 22px;
+margin-left: 50px;
+width: 90%;
+}
+
+
+.vb {
+  margin-left: 45px;
+  margin-top: 20px;
+}
+
+
+footer{
+  position: absolute;
+  width: 100%;
+  right: 0;
+  margin-bottom: -2000px;
+  left: 0;
+  background-color: black;
+  text-align: center;
+  -webkit-box-shadow: -2px 0px 36px 2px rgba(0,0,0,0.75);
+ -moz-box-shadow: -2px 0px 36px 2px rgba(0,0,0,0.75);
+box-shadow: -1px 0px 36px 2px rgba(0,0,0,0.75);
+}
+
+
+
+@media only screen and (max-width: 500px) {
+  .content{
+
+    background-image: url(https://inspirationhut.net/wp-content/uploads/2012/11/Grungy-Paper-Texture-1.jpg);
+    margin: auto;
+    width: 100%;
+  margin-top: 225px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: -1px 0px 36px 2px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 0px 36px 2px rgba(0,0,0,0.75);
+  box-shadow: -1px 0px 36px 2px rgba(0,0,0,0.75);
+  border: 2px solid;
+    border-radius: 15px 50px;
+
+  }
+
+
+  #navigation-container{
+
+    margin-left: 10px;
+    margin-top: 3%;
+    padding-bottom: 10%;
+    width: -50%;
+
+  }
+
+
+
+
+
+
+
+
+
+.white {
+  width:100px;
+}
+
+.green {
+  width:100px;
+  margin-right: 10px;
+}
+
+
+.cu{
+  width:80px;
+}
+
+
+
+
+.intro{
+font-family: aflfont;
+color: black;
+width: 100%;
+font-size: 22px;
+margin-left: 30px;
+width: 90%;
+}
+
+
+}
+
+
+@media only screen and (max-width: 900px) {
+
+
+
+
+
+
+  .content{
+
+  background-image: url(https://inspirationhut.net/wp-content/uploads/2012/11/Grungy-Paper-Texture-1.jpg);
+  margin: auto;
+  width: 100%;
+  margin-top: 325px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: -1px 0px 36px 2px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 0px 36px 2px rgba(0,0,0,0.75);
+  box-shadow: -1px 0px 36px 2px rgba(0,0,0,0.75);
+  border: 2px solid;
+  border-radius: 15px 50px;
+
+  }
+
+
+  #navigation-container{
+
+    margin-left: 10px;
+    margin-top: 3%;
+    width: -50%;
+
+  }
+
+
+
+
+
+
+
+
+.white {
+  width:100px;
+}
+
+.green {
+  width:100px;
+  margin-right: 10px;
+}
+
+
+.cu{
+  width:80px;
+}
+
+.intro{
+  margin-right: 10px;
+}
+
+
+}

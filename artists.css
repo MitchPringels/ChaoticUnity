@@ -1,0 +1,487 @@
+body{
+background-image:url(http://www.konbini.com/fr/files/2013/02/Mosh-Pit-at-Endfest1.jpg);
+}
+
+#navigation-container{
+  margin-left: 130px;
+  margin-top: 20px;
+  padding-bottom: 15px;
+
+
+}
+
+
+.cu {
+float: left;
+
+
+}
+.ul{
+  float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.home{
+  list-style: none;
+}
+.Button1{
+
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+
+
+
+.Button1 .green{
+   display: none;
+      position: absolute;
+        top: 0;
+        left: 0;
+
+  }
+
+
+
+.Button1:hover .green{
+  display: inline;
+
+
+  }
+
+
+
+  .artists{
+    list-style: none;
+  }
+  .Button2{
+
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin: 30px;
+
+  }
+
+
+
+  .Button2 .green{
+     display: none;
+        position: absolute;
+          top: 0;
+          left: 0;
+
+    }
+
+
+
+  .Button2:hover .green{
+    display: inline;
+
+
+    }
+
+
+
+
+
+    .events{
+      list-style: none;
+
+    }
+    .Button3{
+
+      position: relative;
+      display: inline-block;
+      float: left;
+      margin: 30px;
+    }
+
+
+
+    .Button3 .green{
+       display: none;
+          position: absolute;
+            top: 0;
+            left: 0;
+
+      }
+
+
+
+    .Button3:hover .green{
+      display: inline;
+
+      }
+
+
+
+          .about{
+            list-style: none;
+
+          }
+          .Button4{
+
+            position: relative;
+            display: inline-block;
+            float: left;
+            margin: 10px;
+          }
+
+
+
+          .Button4 .green{
+             display: none;
+                position: absolute;
+                  top: 0;
+                  left: 0;
+            }
+
+
+
+          .Button4:hover .green{
+            display: inline;
+
+            }
+
+
+
+
+
+.content{
+
+  background: white;
+  margin: auto;
+  width:70%;
+  margin-top: 200px;
+  -webkit-box-shadow: -1px 0px 36px 2px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 0px 36px 2px rgba(0,0,0,0.75);
+  box-shadow: -1px 0px 36px 2px rgba(0,0,0,0.75);
+
+}
+
+h1{
+  margin-left: 50px;
+  font-family: 'Metal Mania', cursive;
+
+
+}
+
+h2{
+
+
+}
+
+
+
+
+@font-face {
+  font-family: "Crucifixion";
+  src:url('Crucifixion-Regular.ttf') format('truetype');
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  float: right;
+  -webkit-box-shadow: -1px 0px 36px 2px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 0px 36px 2px rgba(0,0,0,0.75);
+  box-shadow: -1px 0px 36px 2px rgba(0,0,0,0.75);
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-image: url(https://inspirationhut.net/wp-content/uploads/2012/11/Grungy-Paper-Texture-1.jpg);
+}
+
+.container:hover .overlay {
+  opacity: 0.8;
+}
+
+.text1 {
+  font-family: 'Metal Mania', cursive;
+  color: black;
+  padding: 5px;
+  border: solid 5px black;
+  background-color: white;
+  border-radius: 15px 25px;
+  border-radius: 15px 25px;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+.container2 {
+  position: relative;
+  width: 50%;
+  float: left;
+  -webkit-box-shadow: -1px 0px 36px 2px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 0px 36px 2px rgba(0,0,0,0.75);
+  box-shadow: -1px 0px 36px 2px rgba(0,0,0,0.75);
+}
+
+.image2 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-image: url(https://inspirationhut.net/wp-content/uploads/2012/11/Grungy-Paper-Texture-1.jpg);
+}
+
+.container2:hover .overlay2 {
+  opacity: 0.9;
+}
+
+.text2{
+  color: goldenrod;
+  font-family: 'Metal Mania', cursive;
+  padding: 5px;
+  border: solid goldenrod 5px;
+  background-color: white;
+  border-radius: 15px 25px;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+.container3 {
+  position: relative;
+  width: 50%;
+  float: right;
+  -webkit-box-shadow: -1px 0px 36px 2px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 0px 36px 2px rgba(0,0,0,0.75);
+  box-shadow: -1px 0px 36px 2px rgba(0,0,0,0.75);
+}
+
+.image3 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-image: url(https://inspirationhut.net/wp-content/uploads/2012/11/Grungy-Paper-Texture-1.jpg);
+}
+
+.container3:hover .overlay3 {
+  opacity: 0.9;
+}
+
+.text3 {
+  background-color: white;
+  padding: 5px;
+  border: solid darkred 5px;
+  border-radius: 15px 25px;
+  font-family: 'Metal Mania', cursive;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: darkred;
+}
+
+.container4 {
+  position: relative;
+  width: 50%;
+  float: right;
+  -webkit-box-shadow: -1px 0px 36px 2px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 0px 36px 2px rgba(0,0,0,0.75);
+  box-shadow: -1px 0px 36px 2px rgba(0,0,0,0.75);
+}
+
+.image4 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-image: url(https://inspirationhut.net/wp-content/uploads/2012/11/Grungy-Paper-Texture-1.jpg);
+}
+
+.container4:hover .overlay4 {
+  opacity: 0.9;
+}
+
+.text4 {
+  color: grey;
+  font-family: 'Metal Mania', cursive;
+  border: solid grey 5px;
+  padding: 5px;
+  border-radius: 15px 25px;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+  .content{
+
+
+    width: 100%;
+
+
+  }
+
+
+  #navigation-container{
+
+    margin-left: 145px;
+    margin-top: 3%;
+    padding-bottom: 3%;
+  }
+
+
+
+  .text1 {
+
+    font-size: 25px;
+
+  }
+
+  .text2 {
+
+    font-size: 25px;
+
+  }
+
+  .text3 {
+
+    font-size: 25px;
+
+  }
+
+  .text4 {
+
+    font-size: 25px;
+
+
+  }
+
+
+}
+
+
+@media only screen and (max-width: 900px) {
+
+  .content{
+
+    width: 100%;
+  }
+
+
+    #navigation-container{
+
+      margin-left: 10px;
+      margin-top: 3%;
+      padding-bottom: 10%;
+      width: -50%;
+
+    }
+
+    footer{
+      position: absolute;
+      width: 100%;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: black;
+      text-align: center;
+      -webkit-box-shadow: -2px 0px 36px 2px rgba(0,0,0,0.75);
+      -moz-box-shadow: -2px 0px 36px 2px rgba(0,0,0,0.75);
+      box-shadow: -1px 0px 36px 2px rgba(0,0,0,0.75);
+
+    }
+
+
+
+
+
+
+
+  .white {
+    width:100px;
+  }
+
+  .green {
+    width:100px;
+    margin-right: 10px;
+  }
+
+
+  .cu{
+    width:70px;
+  }
+
+  .intro{
+    margin-right: 10px;
+  }
+
+
+}
